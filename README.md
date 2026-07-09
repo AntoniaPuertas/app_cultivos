@@ -4,6 +4,8 @@ Aplicación web (HTML + CSS + JavaScript puro, sin frameworks ni servidor) que r
 
 La idea clave del proyecto: una red bayesiana entrenada no es más que un grafo y unas **tablas de probabilidad**. Python solo hace falta para *aprender* esas tablas; una vez exportadas a JSON, la *inferencia* (calcular la probabilidad de cada cultivo dadas las pistas del usuario) puede hacerse íntegramente en el navegador con unas pocas líneas de JavaScript.
 
+**🔗 Demo en vivo: [recomendadorcultivos.netlify.app](https://recomendadorcultivos.netlify.app/)**
+
 ## Demo rápida
 
 Descarga o clona el repositorio y abre `index.html` con doble clic. No necesitas instalar nada: el modelo va embebido en `modelo.js`, así que la app funciona sin servidor y sin conexión (salvo las fuentes de Google Fonts, que son opcionales).
@@ -41,7 +43,9 @@ Para regenerarlo (por ejemplo, tras cambiar el número de niveles o el algoritmo
 
 ## Publicar la app
 
-Al ser ficheros estáticos, puede publicarse gratis con GitHub Pages: en el repositorio, ve a *Settings → Pages*, elige la rama `main` y la carpeta raíz, y en un minuto tendrás la app en `https://<tu-usuario>.github.io/<nombre-del-repo>/`.
+Al ser ficheros estáticos, puede publicarse gratis en cualquier hosting estático. Este proyecto está publicado en Netlify: **https://recomendadorcultivos.netlify.app/**.
+
+También puede publicarse con GitHub Pages: en el repositorio, ve a *Settings → Pages*, elige la rama `main` y la carpeta raíz, y en un minuto tendrás la app en `https://<tu-usuario>.github.io/<nombre-del-repo>/`.
 
 ## Ideas para ampliar (ejercicios)
 
